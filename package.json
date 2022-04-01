@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/SaiRyker/brain-games.git"
   },
   "author": "",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SaiRyker/brain-games/issues"
   },
-  "homepage": "https://github.com/SaiRyker/brain-games#readme"
+  "homepage": "https://github.com/SaiRyker/brain-games#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
