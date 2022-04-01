@@ -1,6 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "My first Project: Brain Games",
   "bin": {
     "brain-games": "bin/brain-games.js"
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/SaiRyker/brain-games#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   }
 }
