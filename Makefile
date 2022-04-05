@@ -9,4 +9,4 @@ link:
 lint:
 	npx eslint .
 fix:
-	npx exlint --fix .
+	npx eslint --fix .
